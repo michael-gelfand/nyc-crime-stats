@@ -20,11 +20,7 @@ Crime data is crucial for understanding trends and making informed policy decisi
   ```
 
 ### Setup
-1. Clone the repository
-   ```sh
-   git clone <repository_url>
-   cd DSCI-532_2025-MG-crime-reports-main
-   ```
+1. Clone the repository and set it as your working directory.
 
 2. Restore the package dependencies using `renv`:
    ```r
