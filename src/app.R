@@ -186,11 +186,11 @@ server <- function(input, output, session) {
     ) +
       geom_col_interactive(fill = "steelblue") +
       labs(x = "Borough", y = unique(df_summary$metric_label)) +
-      #theme_minimal(base_size = 13) +
+      theme_minimal(base_size = 13) +
       theme(
-        text = element_text(family = "DejaVu Sans"),
-        axis.title = element_text(family = "DejaVu Sans"),  
-        axis.text = element_text(family = "DejaVu Sans"),  
+        text = element_text(family = "Open Sans"),
+        axis.title = element_text(family = "Open Sans"),  
+        axis.text = element_text(family = "Open Sans"),  
         panel.grid.major.x = element_blank()
       )
     
