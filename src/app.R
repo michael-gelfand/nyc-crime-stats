@@ -188,9 +188,9 @@ server <- function(input, output, session) {
       labs(x = "Borough", y = unique(df_summary$metric_label)) +
       theme_minimal(base_size = 13) +
       theme(
-        text = element_text(family = "Arial"),
-        axis.title = element_text(family = "Arial"),  
-        axis.text = element_text(family = "Arial"),  
+        text = element_text(family = "sans"),
+        axis.title = element_text(family = "sans"),  
+        axis.text = element_text(family = "sans"),  
         panel.grid.major.x = element_blank()
       )
     
