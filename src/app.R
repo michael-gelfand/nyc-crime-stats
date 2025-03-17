@@ -187,7 +187,12 @@ server <- function(input, output, session) {
       geom_col_interactive(fill = "steelblue") +
       labs(x = "Borough", y = unique(df_summary$metric_label)) +
       theme_minimal(base_size = 13) +
-      theme(panel.grid.major.x = element_blank())
+      theme(
+        text = element_text(family = "Arial"),
+        axis.title = element_text(family = "Arial"),  
+        axis.text = element_text(family = "Arial"),  
+        panel.grid.major.x = element_blank()
+      )
     
     # Convert ggplot2 plot to girafe object for tooltip hover
     girafe(
