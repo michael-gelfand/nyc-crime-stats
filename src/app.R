@@ -95,7 +95,7 @@ about_section <- div(
 
 # UI Layout
 ui <- page_fluid(
-  titlePanel(h1("New York City Crime Rates"), windowTitle = "NYC Crime"),
+  titlePanel(h1("Crime Tracker - New York City Crime Statistics"), windowTitle = "Crime Tracker"),
   sidebarLayout(
     sidebarPanel(
       h4("Filters"),
