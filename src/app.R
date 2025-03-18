@@ -146,11 +146,11 @@ server <- function(input, output, session) {
     
     # Toggle input behavior for normalization
     if (input$normalize) {
-      df_summary <- df_summary %>%
+      df_summary <- df_summary |>
         mutate(metric_value = round((crime_count / Population) * 100000, 2),
                metric_label = "Crimes per 100,000 Residents")
     } else {
-      df_summary <- df_summary %>%
+      df_summary <- df_summary |>
         mutate(metric_value = crime_count, metric_label = "Total Crimes")
     }
     
