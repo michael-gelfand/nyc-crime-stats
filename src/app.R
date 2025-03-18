@@ -90,7 +90,7 @@ about_section <- div(
     style = "font-size: 14px;"
   ),
   p("Created by Michael Gelfand", style = "font-size: 14px;"),
-  p("Last Updated: March 15th, 2025", style = "font-size: 14px;")
+  p("Last Updated: March 17th, 2025", style = "font-size: 14px;")
 )
 
 # UI Layout
